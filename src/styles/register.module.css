@@ -1,0 +1,38 @@
+.container{
+    height: 500px;
+    width: 500px;
+    border: 2px solid red;
+    padding: 20px;
+    background-color: #959595;
+    margin: 0 auto;
+}
+
+.heading{
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    text-align: center;
+}
+
+.inputForm {
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.inputDiv {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.inputDiv > input {
+    width: 200px;
+    height: 36px;
+}

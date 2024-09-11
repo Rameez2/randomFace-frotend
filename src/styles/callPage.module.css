@@ -1,0 +1,157 @@
+.heading {
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    text-align: center;
+}
+
+.container{
+    display: flex;
+}
+
+.videosContainer {
+    height: 671px;
+    width: 320px;
+    margin: auto 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-direction: column;
+    background-color: #2a3037;
+    padding: 10px;
+    overflow: hidden;
+    border: transparent;
+    border-radius: 20px;
+}
+
+.videoDiv{
+    object-fit: cover;
+    width: 300px;
+    height: 290px;
+    border-radius: 18px;
+    background-color: rgb(139, 139, 139);
+}
+
+.videoDiv > video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* .videosContainer > video:first-child {
+    border-color: rgb(65, 255, 65);
+}
+.videosContainer > video:last-child {
+    border-color: rgb(255, 39, 31);
+} */
+
+
+.chatContainer {
+    border: transparent;
+    margin: 0 10px;
+    background-color: #12161a;
+    border-radius: 15px;
+    width: 800px;
+    height: 700px;
+    margin-left: auto;
+}
+
+.messagaesContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+    overflow-y: scroll;
+    height: 570px;
+}
+
+.me,.other {
+    width: fit-content;
+    padding: 7px;
+    font-size: 20px;
+    border-radius: 7px;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+.me {
+    background-color: #0a80fe;
+    color: white;
+    margin: 0 0 0 auto;
+}
+
+.other {
+    background-color: #ebebeb;
+    color: black;
+    margin: 0;
+}
+
+.messageActionsContaier {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    height: fit-content;
+    background-color: #7d8283;
+    border-radius: 10px;
+    margin: 10px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.messageInput{
+    height: 50px;
+    width: 650px;
+    border-radius: 8px;
+    font-size: 20px;
+    padding: 0 10px;
+    border: transparent;
+}
+
+.sendBtn {
+    width: 65px;
+    height: 65px;
+    border: 2px solid #0a80fe;
+    border-radius: 10px;
+    font-size: 40px;
+    padding: 0 3px 0 0px;
+    color: #0a80fe;
+    background-color: white;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.sendBtn:hover {
+    background-color: #0a80fe;
+    color: white;
+}
+
+.startCallBtn,.endCallBtn {
+    align-self: center;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 20px;
+    padding: 10px;
+    margin: 5px;
+    transition: 0.5s;
+}
+
+.startCallBtn {
+    background-color: #0063ec;
+    color: white;
+}
+.startCallBtn:hover {
+    background-color: #074eb3;
+    color: white;
+}
+
+.endCallBtn {
+    background-color: #ff1d1d;
+    color: blac;
+}
+
+.endCallBtn:hover {
+    background-color: #ad0909;
+    color: blac;
+}
